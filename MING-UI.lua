@@ -1,3 +1,27 @@
+--[[
+       _____       _____         ____   ____    ____     ____     __________
+      /    \     /    \ .      |  |   |  |    |  |     |  |.    |  ____  \
+     /  /\  \    /  /\  \.      |  |_____|  |    |  |     |  |.    |  |___)  |
+    /  /  \  \  /  /  \  \.     |  _______  |    |  |     |  |.    |   ____ <
+   /  /    \  \/  /    \  \.    |  |    |  |    |  \_______/  |.   .|   |___)  |
+  /___/      \____/      \___\    |___|    |___|    \_____________/     |___________/
+
+              小朋友们你们好我是赛罗你们都别看我的脚本源码
+             你们好呀我是贝利亚我又来破坏地球了
+             你们好呀我是贝利亚我又来破坏地球了
+             
+--]]
+
+
+
+
+
+
+
+
+
+
+
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -13,11 +37,11 @@ local OrionLib = {
 	Themes = {
 		Default = {
 			Main = Color3.fromRGB(255, 255, 255),
-			Second = Color3.fromRGB(62, 62, 62),
+			Second = Color3.fromRGB(62, 62, 152),
 			Stroke = Color3.fromRGB(65, 65, 65),
 			Divider = Color3.fromRGB(60, 60, 60),
 			Text = Color3.fromRGB(230, 230, 230),
-			TextDark = Color3.fromRGB(160, 160, 160)
+			TextDark = Color3.fromRGB(10, 10, 10)
 		}
 	},
 	SelectedTheme = "Default",
@@ -45,7 +69,7 @@ local function GetIcon(IconName)
 end   
 
 local Orion = Instance.new("ScreenGui")
-Orion.Name = "Orion"
+Orion.Name = "MING Orion"
 if syn then
 	syn.protect_gui(Orion)
 	Orion.Parent = game.CoreGui
@@ -642,8 +666,8 @@ function OrionLib:MakeWindow(WindowConfig)
 		MobileReopenButton.Visible = true
 		UIHidden = true
 		OrionLib:MakeNotification({
-			Name = "Interface Hidden",
-			Content = "Tap Left Control to reopen the interface",
+			Name = "MING Hub",
+			Content = "感谢使用",
 			Time = 5
 		})
 		WindowConfig.CloseCallback()
