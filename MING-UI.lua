@@ -18,7 +18,6 @@ local OrionLib = {
 			Divider = Color3.fromRGB(359, 600, 5),
 			Text = Color3.fromRGB(356, 599, 5),
 			TextDark = Color3.fromRGB(356, 597, 5)
-		}
 	},
 	SelectedTheme = "Default",
 	Folder = nil,
